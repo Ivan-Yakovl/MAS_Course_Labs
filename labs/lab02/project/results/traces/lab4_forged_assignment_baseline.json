@@ -1,0 +1,162 @@
+{
+  "result": {
+    "scenario": "forged_assignment",
+    "protected": false,
+    "physical": 1,
+    "accepted": 1,
+    "accounting": 1,
+    "safe": 0,
+    "success": 0,
+    "ticks": 180,
+    "messages": 16,
+    "rejects": 0,
+    "violations": [
+      "unauthorized_assignment"
+    ],
+    "detection_delay": null,
+    "recovery_delay": null
+  },
+  "trace": [
+    {
+      "seq": 1,
+      "tick": 0,
+      "src": "D",
+      "dst": "W0",
+      "kind": "ASSIGN",
+      "task": 0,
+      "version": 1,
+      "lease": 20
+    },
+    {
+      "seq": 2,
+      "tick": 0,
+      "src": "W0",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 0
+    },
+    {
+      "seq": 3,
+      "tick": 0,
+      "src": "D",
+      "dst": "W1",
+      "kind": "ASSIGN",
+      "task": 1,
+      "version": 1,
+      "lease": 20
+    },
+    {
+      "seq": 4,
+      "tick": 0,
+      "src": "W1",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 1
+    },
+    {
+      "seq": 5,
+      "tick": 2,
+      "src": "W1",
+      "dst": "D",
+      "kind": "ASSIGN_OVERRIDE",
+      "task": 0,
+      "new_owner": "intruder",
+      "version": 1
+    },
+    {
+      "seq": 6,
+      "tick": 2,
+      "src": "D",
+      "dst": "W0",
+      "kind": "ASSIGN",
+      "task": 2,
+      "version": 1,
+      "lease": 22
+    },
+    {
+      "seq": 7,
+      "tick": 2,
+      "src": "W0",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 2
+    },
+    {
+      "seq": 8,
+      "tick": 7,
+      "src": "W0",
+      "dst": "S",
+      "kind": "REQUEST",
+      "task": 2
+    },
+    {
+      "seq": 9,
+      "tick": 7,
+      "src": "S",
+      "dst": "W0",
+      "kind": "GRANT",
+      "task": 2,
+      "end": 9
+    },
+    {
+      "seq": 10,
+      "tick": 8,
+      "src": "intruder",
+      "dst": "S",
+      "kind": "REQUEST",
+      "task": 0
+    },
+    {
+      "seq": 11,
+      "tick": 8,
+      "src": "W1",
+      "dst": "S",
+      "kind": "REQUEST",
+      "task": 1
+    },
+    {
+      "seq": 12,
+      "tick": 9,
+      "src": "W0",
+      "dst": "D",
+      "kind": "DONE",
+      "task": 2,
+      "version": 1,
+      "lease": 22
+    },
+    {
+      "seq": 13,
+      "tick": 9,
+      "src": "W0",
+      "dst": "S",
+      "kind": "RELEASE",
+      "task": 2
+    },
+    {
+      "seq": 14,
+      "tick": 9,
+      "src": "D",
+      "dst": "W0",
+      "kind": "ASSIGN",
+      "task": 3,
+      "version": 1,
+      "lease": 29
+    },
+    {
+      "seq": 15,
+      "tick": 9,
+      "src": "W0",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 3
+    },
+    {
+      "seq": 16,
+      "tick": 16,
+      "src": "W0",
+      "dst": "S",
+      "kind": "REQUEST",
+      "task": 3
+    }
+  ]
+}

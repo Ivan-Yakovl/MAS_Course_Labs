@@ -1,0 +1,629 @@
+{
+  "result": {
+    "scenario": "goal_hijack",
+    "protected": false,
+    "physical": 11,
+    "accepted": 11,
+    "accounting": 11,
+    "safe": 1,
+    "success": 0,
+    "ticks": 180,
+    "messages": 69,
+    "rejects": 0,
+    "violations": [],
+    "detection_delay": null,
+    "recovery_delay": null
+  },
+  "trace": [
+    {
+      "seq": 1,
+      "tick": 0,
+      "src": "D",
+      "dst": "W0",
+      "kind": "ASSIGN",
+      "task": 0,
+      "version": 1,
+      "lease": 20
+    },
+    {
+      "seq": 2,
+      "tick": 0,
+      "src": "W0",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 0
+    },
+    {
+      "seq": 3,
+      "tick": 0,
+      "src": "D",
+      "dst": "W1",
+      "kind": "ASSIGN",
+      "task": 1,
+      "version": 1,
+      "lease": 20
+    },
+    {
+      "seq": 4,
+      "tick": 0,
+      "src": "W1",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 1
+    },
+    {
+      "seq": 5,
+      "tick": 2,
+      "src": "W0",
+      "dst": "M",
+      "kind": "LOCAL_GOAL_CHANGED",
+      "task": 0,
+      "goal": "hold_job_forever"
+    },
+    {
+      "seq": 6,
+      "tick": 8,
+      "src": "W1",
+      "dst": "S",
+      "kind": "REQUEST",
+      "task": 1
+    },
+    {
+      "seq": 7,
+      "tick": 8,
+      "src": "S",
+      "dst": "W1",
+      "kind": "GRANT",
+      "task": 1,
+      "end": 10
+    },
+    {
+      "seq": 8,
+      "tick": 10,
+      "src": "W1",
+      "dst": "D",
+      "kind": "DONE",
+      "task": 1,
+      "version": 1,
+      "lease": 20
+    },
+    {
+      "seq": 9,
+      "tick": 10,
+      "src": "W1",
+      "dst": "S",
+      "kind": "RELEASE",
+      "task": 1
+    },
+    {
+      "seq": 10,
+      "tick": 10,
+      "src": "D",
+      "dst": "W1",
+      "kind": "ASSIGN",
+      "task": 2,
+      "version": 1,
+      "lease": 30
+    },
+    {
+      "seq": 11,
+      "tick": 10,
+      "src": "W1",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 2
+    },
+    {
+      "seq": 12,
+      "tick": 15,
+      "src": "W1",
+      "dst": "S",
+      "kind": "REQUEST",
+      "task": 2
+    },
+    {
+      "seq": 13,
+      "tick": 15,
+      "src": "S",
+      "dst": "W1",
+      "kind": "GRANT",
+      "task": 2,
+      "end": 17
+    },
+    {
+      "seq": 14,
+      "tick": 17,
+      "src": "W1",
+      "dst": "D",
+      "kind": "DONE",
+      "task": 2,
+      "version": 1,
+      "lease": 30
+    },
+    {
+      "seq": 15,
+      "tick": 17,
+      "src": "W1",
+      "dst": "S",
+      "kind": "RELEASE",
+      "task": 2
+    },
+    {
+      "seq": 16,
+      "tick": 17,
+      "src": "D",
+      "dst": "W1",
+      "kind": "ASSIGN",
+      "task": 3,
+      "version": 1,
+      "lease": 37
+    },
+    {
+      "seq": 17,
+      "tick": 17,
+      "src": "W1",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 3
+    },
+    {
+      "seq": 18,
+      "tick": 24,
+      "src": "W1",
+      "dst": "S",
+      "kind": "REQUEST",
+      "task": 3
+    },
+    {
+      "seq": 19,
+      "tick": 24,
+      "src": "S",
+      "dst": "W1",
+      "kind": "GRANT",
+      "task": 3,
+      "end": 26
+    },
+    {
+      "seq": 20,
+      "tick": 26,
+      "src": "W1",
+      "dst": "D",
+      "kind": "DONE",
+      "task": 3,
+      "version": 1,
+      "lease": 37
+    },
+    {
+      "seq": 21,
+      "tick": 26,
+      "src": "W1",
+      "dst": "S",
+      "kind": "RELEASE",
+      "task": 3
+    },
+    {
+      "seq": 22,
+      "tick": 26,
+      "src": "D",
+      "dst": "W1",
+      "kind": "ASSIGN",
+      "task": 4,
+      "version": 1,
+      "lease": 46
+    },
+    {
+      "seq": 23,
+      "tick": 26,
+      "src": "W1",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 4
+    },
+    {
+      "seq": 24,
+      "tick": 35,
+      "src": "W1",
+      "dst": "S",
+      "kind": "REQUEST",
+      "task": 4
+    },
+    {
+      "seq": 25,
+      "tick": 35,
+      "src": "S",
+      "dst": "W1",
+      "kind": "GRANT",
+      "task": 4,
+      "end": 37
+    },
+    {
+      "seq": 26,
+      "tick": 37,
+      "src": "W1",
+      "dst": "D",
+      "kind": "DONE",
+      "task": 4,
+      "version": 1,
+      "lease": 46
+    },
+    {
+      "seq": 27,
+      "tick": 37,
+      "src": "W1",
+      "dst": "S",
+      "kind": "RELEASE",
+      "task": 4
+    },
+    {
+      "seq": 28,
+      "tick": 37,
+      "src": "D",
+      "dst": "W1",
+      "kind": "ASSIGN",
+      "task": 5,
+      "version": 1,
+      "lease": 57
+    },
+    {
+      "seq": 29,
+      "tick": 37,
+      "src": "W1",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 5
+    },
+    {
+      "seq": 30,
+      "tick": 45,
+      "src": "W1",
+      "dst": "S",
+      "kind": "REQUEST",
+      "task": 5
+    },
+    {
+      "seq": 31,
+      "tick": 45,
+      "src": "S",
+      "dst": "W1",
+      "kind": "GRANT",
+      "task": 5,
+      "end": 47
+    },
+    {
+      "seq": 32,
+      "tick": 47,
+      "src": "W1",
+      "dst": "D",
+      "kind": "DONE",
+      "task": 5,
+      "version": 1,
+      "lease": 57
+    },
+    {
+      "seq": 33,
+      "tick": 47,
+      "src": "W1",
+      "dst": "S",
+      "kind": "RELEASE",
+      "task": 5
+    },
+    {
+      "seq": 34,
+      "tick": 47,
+      "src": "D",
+      "dst": "W1",
+      "kind": "ASSIGN",
+      "task": 6,
+      "version": 1,
+      "lease": 67
+    },
+    {
+      "seq": 35,
+      "tick": 47,
+      "src": "W1",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 6
+    },
+    {
+      "seq": 36,
+      "tick": 55,
+      "src": "W1",
+      "dst": "S",
+      "kind": "REQUEST",
+      "task": 6
+    },
+    {
+      "seq": 37,
+      "tick": 55,
+      "src": "S",
+      "dst": "W1",
+      "kind": "GRANT",
+      "task": 6,
+      "end": 57
+    },
+    {
+      "seq": 38,
+      "tick": 57,
+      "src": "W1",
+      "dst": "D",
+      "kind": "DONE",
+      "task": 6,
+      "version": 1,
+      "lease": 67
+    },
+    {
+      "seq": 39,
+      "tick": 57,
+      "src": "W1",
+      "dst": "S",
+      "kind": "RELEASE",
+      "task": 6
+    },
+    {
+      "seq": 40,
+      "tick": 57,
+      "src": "D",
+      "dst": "W1",
+      "kind": "ASSIGN",
+      "task": 7,
+      "version": 1,
+      "lease": 77
+    },
+    {
+      "seq": 41,
+      "tick": 57,
+      "src": "W1",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 7
+    },
+    {
+      "seq": 42,
+      "tick": 64,
+      "src": "W1",
+      "dst": "S",
+      "kind": "REQUEST",
+      "task": 7
+    },
+    {
+      "seq": 43,
+      "tick": 64,
+      "src": "S",
+      "dst": "W1",
+      "kind": "GRANT",
+      "task": 7,
+      "end": 66
+    },
+    {
+      "seq": 44,
+      "tick": 66,
+      "src": "W1",
+      "dst": "D",
+      "kind": "DONE",
+      "task": 7,
+      "version": 1,
+      "lease": 77
+    },
+    {
+      "seq": 45,
+      "tick": 66,
+      "src": "W1",
+      "dst": "S",
+      "kind": "RELEASE",
+      "task": 7
+    },
+    {
+      "seq": 46,
+      "tick": 66,
+      "src": "D",
+      "dst": "W1",
+      "kind": "ASSIGN",
+      "task": 8,
+      "version": 1,
+      "lease": 86
+    },
+    {
+      "seq": 47,
+      "tick": 66,
+      "src": "W1",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 8
+    },
+    {
+      "seq": 48,
+      "tick": 74,
+      "src": "W1",
+      "dst": "S",
+      "kind": "REQUEST",
+      "task": 8
+    },
+    {
+      "seq": 49,
+      "tick": 74,
+      "src": "S",
+      "dst": "W1",
+      "kind": "GRANT",
+      "task": 8,
+      "end": 76
+    },
+    {
+      "seq": 50,
+      "tick": 76,
+      "src": "W1",
+      "dst": "D",
+      "kind": "DONE",
+      "task": 8,
+      "version": 1,
+      "lease": 86
+    },
+    {
+      "seq": 51,
+      "tick": 76,
+      "src": "W1",
+      "dst": "S",
+      "kind": "RELEASE",
+      "task": 8
+    },
+    {
+      "seq": 52,
+      "tick": 76,
+      "src": "D",
+      "dst": "W1",
+      "kind": "ASSIGN",
+      "task": 9,
+      "version": 1,
+      "lease": 96
+    },
+    {
+      "seq": 53,
+      "tick": 76,
+      "src": "W1",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 9
+    },
+    {
+      "seq": 54,
+      "tick": 83,
+      "src": "W1",
+      "dst": "S",
+      "kind": "REQUEST",
+      "task": 9
+    },
+    {
+      "seq": 55,
+      "tick": 83,
+      "src": "S",
+      "dst": "W1",
+      "kind": "GRANT",
+      "task": 9,
+      "end": 85
+    },
+    {
+      "seq": 56,
+      "tick": 85,
+      "src": "W1",
+      "dst": "D",
+      "kind": "DONE",
+      "task": 9,
+      "version": 1,
+      "lease": 96
+    },
+    {
+      "seq": 57,
+      "tick": 85,
+      "src": "W1",
+      "dst": "S",
+      "kind": "RELEASE",
+      "task": 9
+    },
+    {
+      "seq": 58,
+      "tick": 85,
+      "src": "D",
+      "dst": "W1",
+      "kind": "ASSIGN",
+      "task": 10,
+      "version": 1,
+      "lease": 105
+    },
+    {
+      "seq": 59,
+      "tick": 85,
+      "src": "W1",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 10
+    },
+    {
+      "seq": 60,
+      "tick": 94,
+      "src": "W1",
+      "dst": "S",
+      "kind": "REQUEST",
+      "task": 10
+    },
+    {
+      "seq": 61,
+      "tick": 94,
+      "src": "S",
+      "dst": "W1",
+      "kind": "GRANT",
+      "task": 10,
+      "end": 96
+    },
+    {
+      "seq": 62,
+      "tick": 96,
+      "src": "W1",
+      "dst": "D",
+      "kind": "DONE",
+      "task": 10,
+      "version": 1,
+      "lease": 105
+    },
+    {
+      "seq": 63,
+      "tick": 96,
+      "src": "W1",
+      "dst": "S",
+      "kind": "RELEASE",
+      "task": 10
+    },
+    {
+      "seq": 64,
+      "tick": 96,
+      "src": "D",
+      "dst": "W1",
+      "kind": "ASSIGN",
+      "task": 11,
+      "version": 1,
+      "lease": 116
+    },
+    {
+      "seq": 65,
+      "tick": 96,
+      "src": "W1",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 11
+    },
+    {
+      "seq": 66,
+      "tick": 102,
+      "src": "W1",
+      "dst": "S",
+      "kind": "REQUEST",
+      "task": 11
+    },
+    {
+      "seq": 67,
+      "tick": 102,
+      "src": "S",
+      "dst": "W1",
+      "kind": "GRANT",
+      "task": 11,
+      "end": 104
+    },
+    {
+      "seq": 68,
+      "tick": 104,
+      "src": "W1",
+      "dst": "D",
+      "kind": "DONE",
+      "task": 11,
+      "version": 1,
+      "lease": 116
+    },
+    {
+      "seq": 69,
+      "tick": 104,
+      "src": "W1",
+      "dst": "S",
+      "kind": "RELEASE",
+      "task": 11
+    }
+  ]
+}

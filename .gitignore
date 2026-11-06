@@ -1,0 +1,21 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Traces produced by manual demonstration commands
+**/project/demo_trace.json
+**/project/central.json
+**/project/contract.json
+**/project/greedy.json
+**/project/negotiated.json
+**/project/baseline.json
+**/project/protected.json

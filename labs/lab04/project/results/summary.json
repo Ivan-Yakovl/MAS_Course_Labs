@@ -1,0 +1,1170 @@
+{
+  "lab2": [
+    {
+      "robots": 6,
+      "spacing": 2,
+      "latency": 0,
+      "mechanism": "central",
+      "makespan": {
+        "mean": 478.46666666666664,
+        "ci95_half": 25.14171961260724,
+        "n": 30
+      },
+      "flow_mean": {
+        "mean": 155.51194444444445,
+        "ci95_half": 9.211436691984538,
+        "n": 30
+      },
+      "messages": {
+        "mean": 720,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "on_time": {
+        "mean": 0.22944444444444445,
+        "ci95_half": 0.015434342234734225,
+        "n": 30
+      },
+      "distance": {
+        "mean": 1263.5333333333333,
+        "ci95_half": 29.452803003711995,
+        "n": 30
+      },
+      "bid_evals": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "coord_delay": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      }
+    },
+    {
+      "robots": 6,
+      "spacing": 2,
+      "latency": 0,
+      "mechanism": "contract",
+      "makespan": {
+        "mean": 476.8,
+        "ci95_half": 25.207355440240807,
+        "n": 30
+      },
+      "flow_mean": {
+        "mean": 154.53027777777777,
+        "ci95_half": 9.27017916241842,
+        "n": 30
+      },
+      "messages": {
+        "mean": 1320,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "on_time": {
+        "mean": 0.23027777777777778,
+        "ci95_half": 0.014629147018271803,
+        "n": 30
+      },
+      "distance": {
+        "mean": 1255.0666666666666,
+        "ci95_half": 29.976279468292464,
+        "n": 30
+      },
+      "bid_evals": {
+        "mean": 123.16666666666667,
+        "ci95_half": 0.19815495788814202,
+        "n": 30
+      },
+      "coord_delay": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      }
+    },
+    {
+      "robots": 6,
+      "spacing": 2,
+      "latency": 1,
+      "mechanism": "central",
+      "makespan": {
+        "mean": 517.8333333333334,
+        "ci95_half": 25.651615042696005,
+        "n": 30
+      },
+      "flow_mean": {
+        "mean": 176.43305555555554,
+        "ci95_half": 9.176102323607994,
+        "n": 30
+      },
+      "messages": {
+        "mean": 720,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "on_time": {
+        "mean": 0.1922222222222222,
+        "ci95_half": 0.013962337222189631,
+        "n": 30
+      },
+      "distance": {
+        "mean": 1256.4666666666667,
+        "ci95_half": 28.60158934066245,
+        "n": 30
+      },
+      "bid_evals": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "coord_delay": {
+        "mean": 240,
+        "ci95_half": 0.0,
+        "n": 30
+      }
+    },
+    {
+      "robots": 6,
+      "spacing": 2,
+      "latency": 1,
+      "mechanism": "contract",
+      "makespan": {
+        "mean": 561.3,
+        "ci95_half": 25.81064165457225,
+        "n": 30
+      },
+      "flow_mean": {
+        "mean": 195.7875,
+        "ci95_half": 9.425986037953493,
+        "n": 30
+      },
+      "messages": {
+        "mean": 1320,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "on_time": {
+        "mean": 0.1711111111111111,
+        "ci95_half": 0.010456463640030654,
+        "n": 30
+      },
+      "distance": {
+        "mean": 1240.5,
+        "ci95_half": 29.767169274992614,
+        "n": 30
+      },
+      "bid_evals": {
+        "mean": 123,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "coord_delay": {
+        "mean": 480,
+        "ci95_half": 0.0,
+        "n": 30
+      }
+    },
+    {
+      "robots": 6,
+      "spacing": 2,
+      "latency": 3,
+      "mechanism": "central",
+      "makespan": {
+        "mean": 610.7666666666667,
+        "ci95_half": 24.77666723384754,
+        "n": 30
+      },
+      "flow_mean": {
+        "mean": 218.58083333333332,
+        "ci95_half": 9.102537250572096,
+        "n": 30
+      },
+      "messages": {
+        "mean": 720,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "on_time": {
+        "mean": 0.14972222222222223,
+        "ci95_half": 0.00900688525193288,
+        "n": 30
+      },
+      "distance": {
+        "mean": 1261.2666666666667,
+        "ci95_half": 27.737291595302704,
+        "n": 30
+      },
+      "bid_evals": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "coord_delay": {
+        "mean": 720,
+        "ci95_half": 0.0,
+        "n": 30
+      }
+    },
+    {
+      "robots": 6,
+      "spacing": 2,
+      "latency": 3,
+      "mechanism": "contract",
+      "makespan": {
+        "mean": 744.1,
+        "ci95_half": 27.288066654004716,
+        "n": 30
+      },
+      "flow_mean": {
+        "mean": 281.47444444444443,
+        "ci95_half": 9.210395584634279,
+        "n": 30
+      },
+      "messages": {
+        "mean": 1320,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "on_time": {
+        "mean": 0.10666666666666667,
+        "ci95_half": 0.0070958095868135325,
+        "n": 30
+      },
+      "distance": {
+        "mean": 1266.9,
+        "ci95_half": 28.53251936389809,
+        "n": 30
+      },
+      "bid_evals": {
+        "mean": 123,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "coord_delay": {
+        "mean": 1440,
+        "ci95_half": 0.0,
+        "n": 30
+      }
+    },
+    {
+      "robots": 12,
+      "spacing": 2,
+      "latency": 1,
+      "mechanism": "central",
+      "makespan": {
+        "mean": 300.6,
+        "ci95_half": 9.100487651886024,
+        "n": 30
+      },
+      "flow_mean": {
+        "mean": 84.61083333333333,
+        "ci95_half": 3.2604960675455263,
+        "n": 30
+      },
+      "messages": {
+        "mean": 720,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "on_time": {
+        "mean": 0.4488888888888889,
+        "ci95_half": 0.024154927160857084,
+        "n": 30
+      },
+      "distance": {
+        "mean": 1264.1333333333334,
+        "ci95_half": 33.775202688434376,
+        "n": 30
+      },
+      "bid_evals": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "coord_delay": {
+        "mean": 240,
+        "ci95_half": 0.0,
+        "n": 30
+      }
+    },
+    {
+      "robots": 12,
+      "spacing": 2,
+      "latency": 1,
+      "mechanism": "contract",
+      "makespan": {
+        "mean": 312.76666666666665,
+        "ci95_half": 8.781650243212054,
+        "n": 30
+      },
+      "flow_mean": {
+        "mean": 89.5575,
+        "ci95_half": 3.3211339440730465,
+        "n": 30
+      },
+      "messages": {
+        "mean": 2040,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "on_time": {
+        "mean": 0.4186111111111111,
+        "ci95_half": 0.02090893547618066,
+        "n": 30
+      },
+      "distance": {
+        "mean": 1240.0333333333333,
+        "ci95_half": 29.450639935326265,
+        "n": 30
+      },
+      "bid_evals": {
+        "mean": 139.46666666666667,
+        "ci95_half": 0.6915463766512879,
+        "n": 30
+      },
+      "coord_delay": {
+        "mean": 480,
+        "ci95_half": 0.0,
+        "n": 30
+      }
+    },
+    {
+      "robots": 6,
+      "spacing": 0,
+      "latency": 1,
+      "mechanism": "central",
+      "makespan": {
+        "mean": 528.9,
+        "ci95_half": 28.823734598818806,
+        "n": 30
+      },
+      "flow_mean": {
+        "mean": 234.4886111111111,
+        "ci95_half": 8.179094528279414,
+        "n": 30
+      },
+      "messages": {
+        "mean": 720,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "on_time": {
+        "mean": 0.15055555555555555,
+        "ci95_half": 0.006219858985456025,
+        "n": 30
+      },
+      "distance": {
+        "mean": 1246.7333333333333,
+        "ci95_half": 28.74181314862876,
+        "n": 30
+      },
+      "bid_evals": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "coord_delay": {
+        "mean": 240,
+        "ci95_half": 0.0,
+        "n": 30
+      }
+    },
+    {
+      "robots": 6,
+      "spacing": 0,
+      "latency": 1,
+      "mechanism": "contract",
+      "makespan": {
+        "mean": 573.8333333333334,
+        "ci95_half": 30.075583142520973,
+        "n": 30
+      },
+      "flow_mean": {
+        "mean": 255.24555555555557,
+        "ci95_half": 8.374896921725318,
+        "n": 30
+      },
+      "messages": {
+        "mean": 1320,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "on_time": {
+        "mean": 0.1375,
+        "ci95_half": 0.005705629802133734,
+        "n": 30
+      },
+      "distance": {
+        "mean": 1237.3666666666666,
+        "ci95_half": 23.630220136350037,
+        "n": 30
+      },
+      "bid_evals": {
+        "mean": 123,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "coord_delay": {
+        "mean": 480,
+        "ci95_half": 0.0,
+        "n": 30
+      }
+    }
+  ],
+  "lab3": [
+    {
+      "mixed": false,
+      "policy": "greedy",
+      "completed": {
+        "mean": 79.7,
+        "ci95_half": 0.8154430173302878,
+        "n": 30
+      },
+      "fairness": {
+        "mean": 0.16666666666666666,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "max_queue_age": {
+        "mean": 240,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "starved": {
+        "mean": 5,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "messages": {
+        "mean": 245.7,
+        "ci95_half": 2.426199187148271,
+        "n": 30
+      },
+      "weighted_value": {
+        "mean": 79.7,
+        "ci95_half": 0.8154430173302878,
+        "n": 30
+      },
+      "wait_mean": {
+        "mean": 0.0,
+        "ci95_half": 0.0,
+        "n": 30
+      }
+    },
+    {
+      "mixed": false,
+      "policy": "negotiated",
+      "completed": {
+        "mean": 80.3,
+        "ci95_half": 0.7013266546066032,
+        "n": 30
+      },
+      "fairness": {
+        "mean": 0.9989658032549306,
+        "ci95_half": 0.00014561181914476615,
+        "n": 30
+      },
+      "max_queue_age": {
+        "mean": 18.7,
+        "ci95_half": 0.2225364422045207,
+        "n": 30
+      },
+      "starved": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "messages": {
+        "mean": 1704.3333333333333,
+        "ci95_half": 14.656251524829786,
+        "n": 30
+      },
+      "weighted_value": {
+        "mean": 80.3,
+        "ci95_half": 0.7013266546066032,
+        "n": 30
+      },
+      "wait_mean": {
+        "mean": 14.342824511116465,
+        "ci95_half": 0.12433883699058186,
+        "n": 30
+      }
+    },
+    {
+      "mixed": true,
+      "policy": "greedy",
+      "completed": {
+        "mean": 79.7,
+        "ci95_half": 0.8154430173302878,
+        "n": 30
+      },
+      "fairness": {
+        "mean": 0.16666666666666666,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "max_queue_age": {
+        "mean": 240,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "starved": {
+        "mean": 5,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "messages": {
+        "mean": 245.7,
+        "ci95_half": 2.426199187148271,
+        "n": 30
+      },
+      "weighted_value": {
+        "mean": 160.9,
+        "ci95_half": 3.0562255227910744,
+        "n": 30
+      },
+      "wait_mean": {
+        "mean": 0.0,
+        "ci95_half": 0.0,
+        "n": 30
+      }
+    },
+    {
+      "mixed": true,
+      "policy": "negotiated",
+      "completed": {
+        "mean": 80.06666666666666,
+        "ci95_half": 0.6929354902907893,
+        "n": 30
+      },
+      "fairness": {
+        "mean": 0.9968913080673824,
+        "ci95_half": 0.0007935918606721848,
+        "n": 30
+      },
+      "max_queue_age": {
+        "mean": 23.133333333333333,
+        "ci95_half": 0.5070188230068022,
+        "n": 30
+      },
+      "starved": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "messages": {
+        "mean": 1701.3333333333333,
+        "ci95_half": 14.837203109042568,
+        "n": 30
+      },
+      "weighted_value": {
+        "mean": 161.36666666666667,
+        "ci95_half": 3.477351918288209,
+        "n": 30
+      },
+      "wait_mean": {
+        "mean": 14.334533659549312,
+        "ci95_half": 0.12653226860374694,
+        "n": 30
+      }
+    }
+  ],
+  "lab4": [
+    {
+      "scenario": "clean",
+      "protected": false,
+      "physical": {
+        "mean": 12,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "success": {
+        "mean": 1,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "safe": {
+        "mean": 1,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "ticks": {
+        "mean": 57.1,
+        "ci95_half": 1.1699741375718231,
+        "n": 30
+      },
+      "messages": {
+        "mean": 72,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "rejects": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      }
+    },
+    {
+      "scenario": "clean",
+      "protected": true,
+      "physical": {
+        "mean": 12,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "success": {
+        "mean": 1,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "safe": {
+        "mean": 1,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "ticks": {
+        "mean": 57.1,
+        "ci95_half": 1.1699741375718231,
+        "n": 30
+      },
+      "messages": {
+        "mean": 72,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "rejects": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      }
+    },
+    {
+      "scenario": "false_done",
+      "protected": false,
+      "physical": {
+        "mean": 11,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "success": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "safe": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "ticks": {
+        "mean": 53.666666666666664,
+        "ci95_half": 1.10654372589789,
+        "n": 30
+      },
+      "messages": {
+        "mean": 69,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "rejects": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      }
+    },
+    {
+      "scenario": "false_done",
+      "protected": true,
+      "physical": {
+        "mean": 12,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "success": {
+        "mean": 1,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "safe": {
+        "mean": 1,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "ticks": {
+        "mean": 57.1,
+        "ci95_half": 1.1699741375718231,
+        "n": 30
+      },
+      "messages": {
+        "mean": 74,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "rejects": {
+        "mean": 1,
+        "ci95_half": 0.0,
+        "n": 30
+      }
+    },
+    {
+      "scenario": "goal_hijack",
+      "protected": false,
+      "physical": {
+        "mean": 11,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "success": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "safe": {
+        "mean": 1,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "ticks": {
+        "mean": 180,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "messages": {
+        "mean": 69,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "rejects": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      }
+    },
+    {
+      "scenario": "goal_hijack",
+      "protected": true,
+      "physical": {
+        "mean": 12,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "success": {
+        "mean": 1,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "safe": {
+        "mean": 1,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "ticks": {
+        "mean": 107.13333333333334,
+        "ci95_half": 1.955660756209912,
+        "n": 30
+      },
+      "messages": {
+        "mean": 76,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "rejects": {
+        "mean": 1,
+        "ci95_half": 0.0,
+        "n": 30
+      }
+    },
+    {
+      "scenario": "tool_outage",
+      "protected": false,
+      "physical": {
+        "mean": 1.8333333333333333,
+        "ci95_half": 0.14153925563438716,
+        "n": 30
+      },
+      "success": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "safe": {
+        "mean": 1,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "ticks": {
+        "mean": 180,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "messages": {
+        "mean": 18,
+        "ci95_half": 0.8492355338063229,
+        "n": 30
+      },
+      "rejects": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      }
+    },
+    {
+      "scenario": "tool_outage",
+      "protected": true,
+      "physical": {
+        "mean": 12,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "success": {
+        "mean": 1,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "safe": {
+        "mean": 1,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "ticks": {
+        "mean": 88.36666666666666,
+        "ci95_half": 1.1581336615470743,
+        "n": 30
+      },
+      "messages": {
+        "mean": 85.03333333333333,
+        "ci95_half": 0.8174060510262999,
+        "n": 30
+      },
+      "rejects": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      }
+    },
+    {
+      "scenario": "forged_assignment",
+      "protected": false,
+      "physical": {
+        "mean": 0.43333333333333335,
+        "ci95_half": 0.1881993146789551,
+        "n": 30
+      },
+      "success": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "safe": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "ticks": {
+        "mean": 180,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "messages": {
+        "mean": 12.6,
+        "ci95_half": 1.1291958880737305,
+        "n": 30
+      },
+      "rejects": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      }
+    },
+    {
+      "scenario": "forged_assignment",
+      "protected": true,
+      "physical": {
+        "mean": 12,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "success": {
+        "mean": 1,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "safe": {
+        "mean": 1,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "ticks": {
+        "mean": 57.1,
+        "ci95_half": 1.1699741375718231,
+        "n": 30
+      },
+      "messages": {
+        "mean": 74,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "rejects": {
+        "mean": 1,
+        "ci95_half": 0.0,
+        "n": 30
+      }
+    },
+    {
+      "scenario": "delegation_cycle",
+      "protected": false,
+      "physical": {
+        "mean": 11,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "success": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "safe": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "ticks": {
+        "mean": 180,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "messages": {
+        "mean": 247,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "rejects": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      }
+    },
+    {
+      "scenario": "delegation_cycle",
+      "protected": true,
+      "physical": {
+        "mean": 12,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "success": {
+        "mean": 1,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "safe": {
+        "mean": 1,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "ticks": {
+        "mean": 57.1,
+        "ci95_half": 1.1699741375718231,
+        "n": 30
+      },
+      "messages": {
+        "mean": 74,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "rejects": {
+        "mean": 1,
+        "ci95_half": 0.0,
+        "n": 30
+      }
+    },
+    {
+      "scenario": "stale_cancel",
+      "protected": false,
+      "physical": {
+        "mean": 11,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "success": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "safe": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "ticks": {
+        "mean": 180,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "messages": {
+        "mean": 69,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "rejects": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      }
+    },
+    {
+      "scenario": "stale_cancel",
+      "protected": true,
+      "physical": {
+        "mean": 12,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "success": {
+        "mean": 1,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "safe": {
+        "mean": 1,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "ticks": {
+        "mean": 57.1,
+        "ci95_half": 1.1699741375718231,
+        "n": 30
+      },
+      "messages": {
+        "mean": 74,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "rejects": {
+        "mean": 1,
+        "ci95_half": 0.0,
+        "n": 30
+      }
+    },
+    {
+      "scenario": "replay_done",
+      "protected": false,
+      "physical": {
+        "mean": 12,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "success": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "safe": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "ticks": {
+        "mean": 57.1,
+        "ci95_half": 1.1699741375718231,
+        "n": 30
+      },
+      "messages": {
+        "mean": 73,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "rejects": {
+        "mean": 0,
+        "ci95_half": 0.0,
+        "n": 30
+      }
+    },
+    {
+      "scenario": "replay_done",
+      "protected": true,
+      "physical": {
+        "mean": 12,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "success": {
+        "mean": 1,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "safe": {
+        "mean": 1,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "ticks": {
+        "mean": 57.1,
+        "ci95_half": 1.1699741375718231,
+        "n": 30
+      },
+      "messages": {
+        "mean": 74,
+        "ci95_half": 0.0,
+        "n": 30
+      },
+      "rejects": {
+        "mean": 1,
+        "ci95_half": 0.0,
+        "n": 30
+      }
+    }
+  ],
+  "paired_lab2": [
+    {
+      "robots": 6,
+      "spacing": 2,
+      "latency": 0,
+      "makespan_delta_contract_minus_central": {
+        "mean": -1.6666666666666667,
+        "ci95_half": 5.584616032155037,
+        "n": 30
+      }
+    },
+    {
+      "robots": 6,
+      "spacing": 2,
+      "latency": 1,
+      "makespan_delta_contract_minus_central": {
+        "mean": 43.46666666666667,
+        "ci95_half": 5.706739219823901,
+        "n": 30
+      }
+    },
+    {
+      "robots": 6,
+      "spacing": 2,
+      "latency": 3,
+      "makespan_delta_contract_minus_central": {
+        "mean": 133.33333333333334,
+        "ci95_half": 9.486805210978803,
+        "n": 30
+      }
+    },
+    {
+      "robots": 12,
+      "spacing": 2,
+      "latency": 1,
+      "makespan_delta_contract_minus_central": {
+        "mean": 12.166666666666666,
+        "ci95_half": 4.674225431209539,
+        "n": 30
+      }
+    },
+    {
+      "robots": 6,
+      "spacing": 0,
+      "latency": 1,
+      "makespan_delta_contract_minus_central": {
+        "mean": 44.93333333333333,
+        "ci95_half": 7.5894188282467265,
+        "n": 30
+      }
+    }
+  ]
+}

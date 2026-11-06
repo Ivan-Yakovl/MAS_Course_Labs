@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "matched_metrics": 12300,
+  "reproduced_runs": 900,
+  "capacity_checked_traces": 900,
+  "checked_statistical_summaries": 199,
+  "unit_tests": 10,
+  "raw_file_sha256": {
+    "lab2_raw.csv": "bbed3a9c8dbb8badc33919bdf5cbb8e1e47202c9dbe0704ea5e340e95d0e48fa",
+    "lab3_raw.csv": "2ac5e45ff380946761d86de5600b68adc69c3500d2ca5dc0da25d4de93bdde85",
+    "lab4_raw.csv": "2da4de3519fad03608f0c0fa1bb8911fe80eb1a5fe66f8dcd0e37eadf7c304b7"
+  },
+  "source_sha256": {
+    "mas.py": "94efd5d414d364cb57085b38621da24c210c79bda8762c74d95e8b98ff0a7bba",
+    "experiments.py": "daf40eb611df12c19dd22c3dd8be322575bf33545b52e07c42d583fb980df075",
+    "test_mas.py": "5365fdc1a7033274a5e6090cd2bade49480d28e67547043192c92d05ef16fd56",
+    "audit_results.py": "d058ae6567e2acef287dac9745be800fb2e8f1ab5bf06dd78e29eebd57736dd6"
+  }
+}

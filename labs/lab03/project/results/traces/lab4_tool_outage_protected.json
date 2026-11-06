@@ -1,0 +1,773 @@
+{
+  "result": {
+    "scenario": "tool_outage",
+    "protected": true,
+    "physical": 12,
+    "accepted": 12,
+    "accounting": 12,
+    "safe": 1,
+    "success": 1,
+    "ticks": 93,
+    "messages": 86,
+    "rejects": 0,
+    "violations": [],
+    "detection_delay": 0,
+    "recovery_delay": 37
+  },
+  "trace": [
+    {
+      "seq": 1,
+      "tick": 0,
+      "src": "D",
+      "dst": "W0",
+      "kind": "ASSIGN",
+      "task": 0,
+      "version": 1,
+      "lease": 20
+    },
+    {
+      "seq": 2,
+      "tick": 0,
+      "src": "W0",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 0
+    },
+    {
+      "seq": 3,
+      "tick": 0,
+      "src": "D",
+      "dst": "W1",
+      "kind": "ASSIGN",
+      "task": 1,
+      "version": 1,
+      "lease": 20
+    },
+    {
+      "seq": 4,
+      "tick": 0,
+      "src": "W1",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 1
+    },
+    {
+      "seq": 5,
+      "tick": 8,
+      "src": "W0",
+      "dst": "S",
+      "kind": "REQUEST",
+      "task": 0
+    },
+    {
+      "seq": 6,
+      "tick": 8,
+      "src": "W1",
+      "dst": "S",
+      "kind": "REQUEST",
+      "task": 1
+    },
+    {
+      "seq": 7,
+      "tick": 8,
+      "src": "S",
+      "dst": "W0",
+      "kind": "GRANT",
+      "task": 0,
+      "end": 10
+    },
+    {
+      "seq": 8,
+      "tick": 10,
+      "src": "W0",
+      "dst": "D",
+      "kind": "DONE",
+      "task": 0,
+      "version": 1,
+      "lease": 20
+    },
+    {
+      "seq": 9,
+      "tick": 10,
+      "src": "W0",
+      "dst": "S",
+      "kind": "RELEASE",
+      "task": 0
+    },
+    {
+      "seq": 10,
+      "tick": 10,
+      "src": "D",
+      "dst": "W0",
+      "kind": "ASSIGN",
+      "task": 2,
+      "version": 1,
+      "lease": 30
+    },
+    {
+      "seq": 11,
+      "tick": 10,
+      "src": "W0",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 2
+    },
+    {
+      "seq": 12,
+      "tick": 10,
+      "src": "S",
+      "dst": "M",
+      "kind": "TOOL_UNAVAILABLE",
+      "task": 1
+    },
+    {
+      "seq": 13,
+      "tick": 15,
+      "src": "W0",
+      "dst": "S",
+      "kind": "REQUEST",
+      "task": 2
+    },
+    {
+      "seq": 14,
+      "tick": 15,
+      "src": "S",
+      "dst": "M",
+      "kind": "TOOL_UNAVAILABLE",
+      "task": 1
+    },
+    {
+      "seq": 15,
+      "tick": 20,
+      "src": "S",
+      "dst": "M",
+      "kind": "TOOL_UNAVAILABLE",
+      "task": 1
+    },
+    {
+      "seq": 16,
+      "tick": 21,
+      "src": "M",
+      "dst": "D",
+      "kind": "LEASE_EXTEND",
+      "task": 1,
+      "lease": 41
+    },
+    {
+      "seq": 17,
+      "tick": 21,
+      "src": "D",
+      "dst": "W1",
+      "kind": "LEASE_RENEWED",
+      "task": 1,
+      "lease": 41
+    },
+    {
+      "seq": 18,
+      "tick": 25,
+      "src": "S",
+      "dst": "M",
+      "kind": "TOOL_UNAVAILABLE",
+      "task": 1
+    },
+    {
+      "seq": 19,
+      "tick": 30,
+      "src": "S",
+      "dst": "M",
+      "kind": "TOOL_UNAVAILABLE",
+      "task": 1
+    },
+    {
+      "seq": 20,
+      "tick": 31,
+      "src": "M",
+      "dst": "D",
+      "kind": "LEASE_EXTEND",
+      "task": 2,
+      "lease": 51
+    },
+    {
+      "seq": 21,
+      "tick": 31,
+      "src": "D",
+      "dst": "W0",
+      "kind": "LEASE_RENEWED",
+      "task": 2,
+      "lease": 51
+    },
+    {
+      "seq": 22,
+      "tick": 35,
+      "src": "S",
+      "dst": "M",
+      "kind": "TOOL_UNAVAILABLE",
+      "task": 1
+    },
+    {
+      "seq": 23,
+      "tick": 40,
+      "src": "S",
+      "dst": "M",
+      "kind": "TOOL_UNAVAILABLE",
+      "task": 1
+    },
+    {
+      "seq": 24,
+      "tick": 42,
+      "src": "M",
+      "dst": "D",
+      "kind": "LEASE_EXTEND",
+      "task": 1,
+      "lease": 62
+    },
+    {
+      "seq": 25,
+      "tick": 42,
+      "src": "D",
+      "dst": "W1",
+      "kind": "LEASE_RENEWED",
+      "task": 1,
+      "lease": 62
+    },
+    {
+      "seq": 26,
+      "tick": 45,
+      "src": "M",
+      "dst": "S",
+      "kind": "TOOL_RECOVERED",
+      "task": 1
+    },
+    {
+      "seq": 27,
+      "tick": 45,
+      "src": "S",
+      "dst": "W1",
+      "kind": "GRANT",
+      "task": 1,
+      "end": 47
+    },
+    {
+      "seq": 28,
+      "tick": 47,
+      "src": "W1",
+      "dst": "D",
+      "kind": "DONE",
+      "task": 1,
+      "version": 1,
+      "lease": 62
+    },
+    {
+      "seq": 29,
+      "tick": 47,
+      "src": "W1",
+      "dst": "S",
+      "kind": "RELEASE",
+      "task": 1
+    },
+    {
+      "seq": 30,
+      "tick": 47,
+      "src": "D",
+      "dst": "W1",
+      "kind": "ASSIGN",
+      "task": 3,
+      "version": 1,
+      "lease": 67
+    },
+    {
+      "seq": 31,
+      "tick": 47,
+      "src": "W1",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 3
+    },
+    {
+      "seq": 32,
+      "tick": 47,
+      "src": "S",
+      "dst": "W0",
+      "kind": "GRANT",
+      "task": 2,
+      "end": 49
+    },
+    {
+      "seq": 33,
+      "tick": 49,
+      "src": "W0",
+      "dst": "D",
+      "kind": "DONE",
+      "task": 2,
+      "version": 1,
+      "lease": 51
+    },
+    {
+      "seq": 34,
+      "tick": 49,
+      "src": "W0",
+      "dst": "S",
+      "kind": "RELEASE",
+      "task": 2
+    },
+    {
+      "seq": 35,
+      "tick": 49,
+      "src": "D",
+      "dst": "W0",
+      "kind": "ASSIGN",
+      "task": 4,
+      "version": 1,
+      "lease": 69
+    },
+    {
+      "seq": 36,
+      "tick": 49,
+      "src": "W0",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 4
+    },
+    {
+      "seq": 37,
+      "tick": 54,
+      "src": "W1",
+      "dst": "S",
+      "kind": "REQUEST",
+      "task": 3
+    },
+    {
+      "seq": 38,
+      "tick": 54,
+      "src": "S",
+      "dst": "W1",
+      "kind": "GRANT",
+      "task": 3,
+      "end": 56
+    },
+    {
+      "seq": 39,
+      "tick": 56,
+      "src": "W1",
+      "dst": "D",
+      "kind": "DONE",
+      "task": 3,
+      "version": 1,
+      "lease": 67
+    },
+    {
+      "seq": 40,
+      "tick": 56,
+      "src": "W1",
+      "dst": "S",
+      "kind": "RELEASE",
+      "task": 3
+    },
+    {
+      "seq": 41,
+      "tick": 56,
+      "src": "D",
+      "dst": "W1",
+      "kind": "ASSIGN",
+      "task": 5,
+      "version": 1,
+      "lease": 76
+    },
+    {
+      "seq": 42,
+      "tick": 56,
+      "src": "W1",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 5
+    },
+    {
+      "seq": 43,
+      "tick": 58,
+      "src": "W0",
+      "dst": "S",
+      "kind": "REQUEST",
+      "task": 4
+    },
+    {
+      "seq": 44,
+      "tick": 58,
+      "src": "S",
+      "dst": "W0",
+      "kind": "GRANT",
+      "task": 4,
+      "end": 60
+    },
+    {
+      "seq": 45,
+      "tick": 60,
+      "src": "W0",
+      "dst": "D",
+      "kind": "DONE",
+      "task": 4,
+      "version": 1,
+      "lease": 69
+    },
+    {
+      "seq": 46,
+      "tick": 60,
+      "src": "W0",
+      "dst": "S",
+      "kind": "RELEASE",
+      "task": 4
+    },
+    {
+      "seq": 47,
+      "tick": 60,
+      "src": "D",
+      "dst": "W0",
+      "kind": "ASSIGN",
+      "task": 6,
+      "version": 1,
+      "lease": 80
+    },
+    {
+      "seq": 48,
+      "tick": 60,
+      "src": "W0",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 6
+    },
+    {
+      "seq": 49,
+      "tick": 64,
+      "src": "W1",
+      "dst": "S",
+      "kind": "REQUEST",
+      "task": 5
+    },
+    {
+      "seq": 50,
+      "tick": 64,
+      "src": "S",
+      "dst": "W1",
+      "kind": "GRANT",
+      "task": 5,
+      "end": 66
+    },
+    {
+      "seq": 51,
+      "tick": 66,
+      "src": "W1",
+      "dst": "D",
+      "kind": "DONE",
+      "task": 5,
+      "version": 1,
+      "lease": 76
+    },
+    {
+      "seq": 52,
+      "tick": 66,
+      "src": "W1",
+      "dst": "S",
+      "kind": "RELEASE",
+      "task": 5
+    },
+    {
+      "seq": 53,
+      "tick": 66,
+      "src": "D",
+      "dst": "W1",
+      "kind": "ASSIGN",
+      "task": 7,
+      "version": 1,
+      "lease": 86
+    },
+    {
+      "seq": 54,
+      "tick": 66,
+      "src": "W1",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 7
+    },
+    {
+      "seq": 55,
+      "tick": 68,
+      "src": "W0",
+      "dst": "S",
+      "kind": "REQUEST",
+      "task": 6
+    },
+    {
+      "seq": 56,
+      "tick": 68,
+      "src": "S",
+      "dst": "W0",
+      "kind": "GRANT",
+      "task": 6,
+      "end": 70
+    },
+    {
+      "seq": 57,
+      "tick": 70,
+      "src": "W0",
+      "dst": "D",
+      "kind": "DONE",
+      "task": 6,
+      "version": 1,
+      "lease": 80
+    },
+    {
+      "seq": 58,
+      "tick": 70,
+      "src": "W0",
+      "dst": "S",
+      "kind": "RELEASE",
+      "task": 6
+    },
+    {
+      "seq": 59,
+      "tick": 70,
+      "src": "D",
+      "dst": "W0",
+      "kind": "ASSIGN",
+      "task": 8,
+      "version": 1,
+      "lease": 90
+    },
+    {
+      "seq": 60,
+      "tick": 70,
+      "src": "W0",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 8
+    },
+    {
+      "seq": 61,
+      "tick": 73,
+      "src": "W1",
+      "dst": "S",
+      "kind": "REQUEST",
+      "task": 7
+    },
+    {
+      "seq": 62,
+      "tick": 73,
+      "src": "S",
+      "dst": "W1",
+      "kind": "GRANT",
+      "task": 7,
+      "end": 75
+    },
+    {
+      "seq": 63,
+      "tick": 75,
+      "src": "W1",
+      "dst": "D",
+      "kind": "DONE",
+      "task": 7,
+      "version": 1,
+      "lease": 86
+    },
+    {
+      "seq": 64,
+      "tick": 75,
+      "src": "W1",
+      "dst": "S",
+      "kind": "RELEASE",
+      "task": 7
+    },
+    {
+      "seq": 65,
+      "tick": 75,
+      "src": "D",
+      "dst": "W1",
+      "kind": "ASSIGN",
+      "task": 9,
+      "version": 1,
+      "lease": 95
+    },
+    {
+      "seq": 66,
+      "tick": 75,
+      "src": "W1",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 9
+    },
+    {
+      "seq": 67,
+      "tick": 78,
+      "src": "W0",
+      "dst": "S",
+      "kind": "REQUEST",
+      "task": 8
+    },
+    {
+      "seq": 68,
+      "tick": 78,
+      "src": "S",
+      "dst": "W0",
+      "kind": "GRANT",
+      "task": 8,
+      "end": 80
+    },
+    {
+      "seq": 69,
+      "tick": 80,
+      "src": "W0",
+      "dst": "D",
+      "kind": "DONE",
+      "task": 8,
+      "version": 1,
+      "lease": 90
+    },
+    {
+      "seq": 70,
+      "tick": 80,
+      "src": "W0",
+      "dst": "S",
+      "kind": "RELEASE",
+      "task": 8
+    },
+    {
+      "seq": 71,
+      "tick": 80,
+      "src": "D",
+      "dst": "W0",
+      "kind": "ASSIGN",
+      "task": 10,
+      "version": 1,
+      "lease": 100
+    },
+    {
+      "seq": 72,
+      "tick": 80,
+      "src": "W0",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 10
+    },
+    {
+      "seq": 73,
+      "tick": 82,
+      "src": "W1",
+      "dst": "S",
+      "kind": "REQUEST",
+      "task": 9
+    },
+    {
+      "seq": 74,
+      "tick": 82,
+      "src": "S",
+      "dst": "W1",
+      "kind": "GRANT",
+      "task": 9,
+      "end": 84
+    },
+    {
+      "seq": 75,
+      "tick": 84,
+      "src": "W1",
+      "dst": "D",
+      "kind": "DONE",
+      "task": 9,
+      "version": 1,
+      "lease": 95
+    },
+    {
+      "seq": 76,
+      "tick": 84,
+      "src": "W1",
+      "dst": "S",
+      "kind": "RELEASE",
+      "task": 9
+    },
+    {
+      "seq": 77,
+      "tick": 84,
+      "src": "D",
+      "dst": "W1",
+      "kind": "ASSIGN",
+      "task": 11,
+      "version": 1,
+      "lease": 104
+    },
+    {
+      "seq": 78,
+      "tick": 84,
+      "src": "W1",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 11
+    },
+    {
+      "seq": 79,
+      "tick": 89,
+      "src": "W0",
+      "dst": "S",
+      "kind": "REQUEST",
+      "task": 10
+    },
+    {
+      "seq": 80,
+      "tick": 89,
+      "src": "S",
+      "dst": "W0",
+      "kind": "GRANT",
+      "task": 10,
+      "end": 91
+    },
+    {
+      "seq": 81,
+      "tick": 90,
+      "src": "W1",
+      "dst": "S",
+      "kind": "REQUEST",
+      "task": 11
+    },
+    {
+      "seq": 82,
+      "tick": 91,
+      "src": "W0",
+      "dst": "D",
+      "kind": "DONE",
+      "task": 10,
+      "version": 1,
+      "lease": 100
+    },
+    {
+      "seq": 83,
+      "tick": 91,
+      "src": "W0",
+      "dst": "S",
+      "kind": "RELEASE",
+      "task": 10
+    },
+    {
+      "seq": 84,
+      "tick": 91,
+      "src": "S",
+      "dst": "W1",
+      "kind": "GRANT",
+      "task": 11,
+      "end": 93
+    },
+    {
+      "seq": 85,
+      "tick": 93,
+      "src": "W1",
+      "dst": "D",
+      "kind": "DONE",
+      "task": 11,
+      "version": 1,
+      "lease": 104
+    },
+    {
+      "seq": 86,
+      "tick": 93,
+      "src": "W1",
+      "dst": "S",
+      "kind": "RELEASE",
+      "task": 11
+    }
+  ]
+}

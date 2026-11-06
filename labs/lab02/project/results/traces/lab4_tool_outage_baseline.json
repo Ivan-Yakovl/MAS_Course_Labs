@@ -1,0 +1,132 @@
+{
+  "result": {
+    "scenario": "tool_outage",
+    "protected": false,
+    "physical": 1,
+    "accepted": 1,
+    "accounting": 1,
+    "safe": 1,
+    "success": 0,
+    "ticks": 180,
+    "messages": 13,
+    "rejects": 0,
+    "violations": [],
+    "detection_delay": null,
+    "recovery_delay": null
+  },
+  "trace": [
+    {
+      "seq": 1,
+      "tick": 0,
+      "src": "D",
+      "dst": "W0",
+      "kind": "ASSIGN",
+      "task": 0,
+      "version": 1,
+      "lease": 20
+    },
+    {
+      "seq": 2,
+      "tick": 0,
+      "src": "W0",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 0
+    },
+    {
+      "seq": 3,
+      "tick": 0,
+      "src": "D",
+      "dst": "W1",
+      "kind": "ASSIGN",
+      "task": 1,
+      "version": 1,
+      "lease": 20
+    },
+    {
+      "seq": 4,
+      "tick": 0,
+      "src": "W1",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 1
+    },
+    {
+      "seq": 5,
+      "tick": 8,
+      "src": "W0",
+      "dst": "S",
+      "kind": "REQUEST",
+      "task": 0
+    },
+    {
+      "seq": 6,
+      "tick": 8,
+      "src": "W1",
+      "dst": "S",
+      "kind": "REQUEST",
+      "task": 1
+    },
+    {
+      "seq": 7,
+      "tick": 8,
+      "src": "S",
+      "dst": "W0",
+      "kind": "GRANT",
+      "task": 0,
+      "end": 10
+    },
+    {
+      "seq": 8,
+      "tick": 10,
+      "src": "W0",
+      "dst": "D",
+      "kind": "DONE",
+      "task": 0,
+      "version": 1,
+      "lease": 20
+    },
+    {
+      "seq": 9,
+      "tick": 10,
+      "src": "W0",
+      "dst": "S",
+      "kind": "RELEASE",
+      "task": 0
+    },
+    {
+      "seq": 10,
+      "tick": 10,
+      "src": "D",
+      "dst": "W0",
+      "kind": "ASSIGN",
+      "task": 2,
+      "version": 1,
+      "lease": 30
+    },
+    {
+      "seq": 11,
+      "tick": 10,
+      "src": "W0",
+      "dst": "D",
+      "kind": "ACK",
+      "task": 2
+    },
+    {
+      "seq": 12,
+      "tick": 10,
+      "src": "S",
+      "dst": "M",
+      "kind": "TOOL_UNAVAILABLE",
+      "task": 1
+    },
+    {
+      "seq": 13,
+      "tick": 15,
+      "src": "W0",
+      "dst": "S",
+      "kind": "REQUEST",
+      "task": 2
+    }
+  ]
+}

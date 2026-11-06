@@ -1,0 +1,17 @@
+{
+  "runs": 900,
+  "behavioral_tests": 10,
+  "behavioral_tests_passed": true,
+  "independent_audit": "results/quality_audit.json",
+  "reports_pdf_pages": {
+    "1": 7,
+    "2": 6,
+    "3": 6,
+    "4": 7
+  },
+  "demonstration_modes": 20,
+  "demonstration_script_checks": "20 modes, selector, next, seek, reset, summaries; DOM stub",
+  "browser_visual_qa": "Unavailable: computer-use could not determine current browser URL",
+  "pdf_visual_qa": "All pages rendered and inspected; formulas corrected after inspection",
+  "source_hashes_match_results": true
+}
